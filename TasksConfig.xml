@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TasksConfig>
+  <BackupAndUploadTask>
+    <DropBoxFolderName Value="ServerPRODdbs/databases" />
+    <DropboxClear Value="10" />
+    <DatabaseType Value="MSSQL" />
+    <SqlConnectionString Value="server=.\APIPROD;user id=sa;password=123456;" />
+    <SqlDatabaseName Value="NIBIS*" />
+    <BackupsFolder Value="C:\NV backup service\backuploc\" />
+    <RemoteFolder Value="C:\NV backup service\backuploc\" />
+    <LocalFolder Value="C:\NV backup service\backuploc\" />
+    <BackupFolder1 Value="" />
+    <BackupFolder2 Value="" />
+    <ClearBackupsFolder Value="10" />
+    <ClearRemoteFolder Value="10" />
+    <ClearLocalFolder Value="10" />
+    <ClearBackupFolder1 Value="10" />
+    <ClearBackupFolder2 Value="10" />
+    <Name Value="BackupAndUpload-ViseBaza-NIBIS" />
+    <TaskActive Value="True" />
+    <TaskStart Value="25.01.2018. 12:10:00" />
+    <TaskEnd Value="29.05.2030. 12:10:00" />
+    <TaskRepeat Value="8" />
+    <TaskLast Value="19.03.2018. 09:16:54" />
+  </BackupAndUploadTask>
+  <BackupAndUploadTask>
+    <DropBoxFolderName Value="ServerPRODdbs/Client_24" />
+    <DropboxClear Value="3" />
+    <DatabaseType Value="MSSQL" />
+    <SqlConnectionString Value="server=.\SYNC;user id=sa;password=123456;" />
+    <SqlDatabaseName Value="SYNCDB_24" />
+    <BackupsFolder Value="C:\SYNCDB_24\backups\" />
+    <RemoteFolder Value="C:\SYNCDB_24\backups\" />
+    <LocalFolder Value="C:\SYNCDB_24\backups\" />
+    <BackupFolder1 Value="W:\EXTERNAL\STORAGE\" />
+    <BackupFolder2 Value="W:\EXTERNAL\STORAGE\" />
+    <ClearBackupsFolder Value="1" />
+    <ClearRemoteFolder Value="2" />
+    <ClearLocalFolder Value="3" />
+    <ClearBackupFolder1 Value="3" />
+    <ClearBackupFolder2 Value="3" />
+    <Name Value="BackupAndUpload-SYNCDB_24" />
+    <TaskActive Value="False" />
+    <TaskStart Value="01.01.2016. 12:10:00" />
+    <TaskEnd Value="31.12.2017. 12:10:00" />
+    <TaskRepeat Value="24" />
+    <TaskLast Value="31.12.2017. 11:30:14" />
+  </BackupAndUploadTask>
+</TasksConfig>
